@@ -12,9 +12,15 @@ import static junit.framework.Assert.assertTrue;
  */
 @Config(manifest=Config.NONE)
 @RunWith(RobolectricTestRunner.class)
-public class RoboletricTest {
+
+public class FooSmallTests {
     @Test
-    public void roboTest(){
+    public void fooTest1(){
+        assertTrue(true);
+    }
+
+    @Test
+    public void fooTest2(){
         assertTrue(true);
     }
 }
